@@ -3,10 +3,6 @@ initPhotoSwipeFromDOM('.my-gallery');
 
 $(function () {
 
-  $('.card-caption').on('click', 'a', function (e) {
-    e.stopPropagation();
-  });
-
   var $nav = $('#gnav');
   var offset = $nav.offset();
   var navHeight = $nav.innerHeight();
